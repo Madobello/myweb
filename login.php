@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<?php
+
+include("./include/header.php");
+   ?>
     <section class="login-section">
         <div class="login-container">
     
@@ -26,9 +30,13 @@
             </div>
             
             <div class="login-image">
-               <img src="logpic.PNG" alt="Login Illustration">
+               <img src="./images/logpic.PNG" alt="Login Illustration">
             </div>
         </div>
     </section>
+    <?php
+include("./include/footer.php");
+
+   ?>
 </body>
 </html>

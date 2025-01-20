@@ -7,19 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="meal.PNG" alt="Smart Meal Card Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="home.html">Contact</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#">Login</a></li>
-            </ul>
-        </nav>
-    </header>
+
+<?php
+
+include("./include/header.php");
+   ?>
+    
     <main class="contact-page">
         <div class="contact-info">
             <div class="info-box">
